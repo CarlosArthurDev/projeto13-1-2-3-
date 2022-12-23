@@ -12,16 +12,16 @@ function setup(){
 function draw(){
     image(img,0,0,640,420)
     fill("#FF0000")
-    text("ar condicionador",45,75)
+    text("armario",45,75)
     stroke("#FF0000")
     noFill()
-    rect(30,60,450,350)
+    rect(30,60,425,140)
 
-    fill("#FF0000")
-    text("cat",320,120)
-    stroke("#FF0000")
+    fill("#FF235")
+    text("micro-ondas",450,120)
+    stroke("#FF235")
     noFill()
-    rect(300,70,270,450)
+    rect(450,10,175,400)
 }
 
 function modelLoaded(){
