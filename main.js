@@ -1,6 +1,6 @@
 var modelStatus=""
 function preload(){
-    img=loadImage("dog_cat.jpg")
+    img=loadImage("download-7.jpg")
 }
 function setup(){
     canvas=createCanvas(640,420)
@@ -12,7 +12,7 @@ function setup(){
 function draw(){
     image(img,0,0,640,420)
     fill("#FF0000")
-    text("dog",45,75)
+    text("ar condicionador",45,75)
     stroke("#FF0000")
     noFill()
     rect(30,60,450,350)
